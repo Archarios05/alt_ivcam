@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>カメラ映像を PC に送るために使用します</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>同じネットワーク上の PC と接続するために使用します</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_phonecam._tcp</string>
+	</array>
+</dict>
+</plist>

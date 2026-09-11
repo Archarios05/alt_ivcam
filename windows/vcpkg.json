@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "phonecam",
+  "version": "0.1.0",
+  "builtin-baseline": "771b0a2e7c473c3a6bee56553be4d5bb32bb653c",
+  "dependencies": [
+    "libyuv",
+    "wil"
+  ],
+  "features": {
+    "receiver": {
+      "description": "Receiver.exe dependencies (x64 only). FFmpeg is LGPL: no gpl / nonfree features.",
+      "dependencies": [
+        {
+          "name": "ffmpeg",
+          "default-features": false,
+          "features": [
+            "avcodec"
+          ]
+        },
+        {
+          "name": "imgui",
+          "features": [
+            "dx11-binding",
+            "win32-binding"
+          ]
+        }
+      ]
+    }
+  }
+}

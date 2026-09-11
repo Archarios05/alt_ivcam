@@ -1,0 +1,22 @@
+# CMake / vcpkg
+out/
+build/
+vcpkg_installed/
+CMakeUserPresets.json
+
+# Visual Studio / VS Code
+.vs/
+*.user
+.vscode/*
+!.vscode/extensions.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+.DS_Store

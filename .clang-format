@@ -1,0 +1,5 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 120
+# <windows.h> を先に読む必要があるなど、Windows ヘッダは順序に意味があるため並べ替えない
+SortIncludes: Never

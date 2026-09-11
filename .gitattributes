@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+# Windows 固有ファイルは CRLF
+*.sln text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.bin binary
